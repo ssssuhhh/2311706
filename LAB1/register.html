@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2311706 주소현</title>
+</head>
+<body>
+    <h1>동아리 가입 양식</h1>
+    <form>
+        <label for="username">이름</label>
+        <input type="text" id="username" name="username"><br/>
+        <label for="major">학부/학과</label>
+        <select id="major" name="major">
+            <option value="소프트웨어학부 컴퓨터과학전공">소프트웨어학부 컴퓨터과학전공</option>
+            <option value="소프트웨어학부 데이터사이언스전공">소프트웨어학부 데이터사이언스전공</option>
+            <option value="경영학부">경영학부</option>
+            <option value="의류학과">의류학과</option>
+            <option value="인공지능공학부">인공지능공학부</option>
+        </select><br>
+        <label for="username">학년</label>
+        <input type="radio" id="1" name="grade" value="1학년">
+        <label for="1">1학년</label>
+        <input type="radio" id="2" name="grade" value="2학년">
+        <label for="2">2학년</label>
+        <input type="radio" id="3" name="grade" value="3학년">
+        <label for="3">3학년</label>
+        <input type="radio" id="4" name="grade" value="4학년">
+        <label for="4">4학년</label><br>
+        <label for="studentnum">학번</label>
+        <input type="text" id="studentnum" name="studentnum"><br/>
+        <label for="email">이메일</label>
+        <input type="email" id="email" name="email" placeholder="id@host"><br/>
+        <label for="phone">전화번호</label>
+        <input type="tel" id="phone" name="phone" placeholder="010-1234-5678"><br/>
+        <label for="reason">가입동기</label>
+        <textarea name="reason" rows="5" cols="30"></textarea><br>
+        <input type="submit" value="가입하기">
+        <input type="reset" value="취소하기">
+    </form>
+</body>
+</html>
